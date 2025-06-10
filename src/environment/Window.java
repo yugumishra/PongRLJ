@@ -26,8 +26,6 @@ public class Window {
 	//uniform locations
 	int color;
 	int displacement;
-	
-	boolean fast = true;
 
 	public Window(int maxWidth, int maxHeight) {
 		this.maxWidth = maxWidth;
@@ -74,15 +72,6 @@ public class Window {
 				// then we should set that the window should close to true
 				GLFW.glfwSetWindowShouldClose(window, true);
 			}
-			
-			if(key == GLFW.GLFW_KEY_TAB && action == GLFW.GLFW_RELEASE) {
-				fast = !fast;
-				if(fast) {
-					GLFW.glfwSwapInterval(0);
-				}else {
-					GLFW.glfwSwapInterval(1);
-				}
-			}
 		});
 
 		GLFW.glfwMakeContextCurrent(window);
@@ -95,7 +84,6 @@ public class Window {
 		GLFW.glfwShowWindow(window);
 
 		GLFW.glfwSwapInterval(1);
-
 		// init a basic image shader that draws an image
 		int sid = GL20.glCreateShader(GL20.GL_VERTEX_SHADER);
 		GL20.glShaderSource(sid, ""

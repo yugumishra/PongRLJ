@@ -35,7 +35,7 @@
   	<dependency>
   	  <groupId>com.github.yugumishra</groupId>
   	  <artifactId>JavaAI</artifactId>
-  	  <version>38d60617a5</version>
+  	  <version>77147bf1e7</version>
   	</dependency>
 	<dependency>
 		<groupId>org.lwjgl</groupId>
