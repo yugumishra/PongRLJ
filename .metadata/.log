@@ -1,0 +1,71 @@
+!SESSION 2025-06-09 00:09:55.393 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=24.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-06-09 00:10:15.947
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-09 00:10:15.947
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d224921,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f7e5e11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-09 00:10:23.148
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\findy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.log4j 2 0 2025-06-09 00:10:24.082
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Jw3urywQSAS.LQYtncMsWIp3ZNvwA3Ys8tfLAjkyyKI-1749445823782-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-06-09 00:10:26.235
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="P6EjdzVmT4kGMKiYhqsI6osg.3XMT6W6NLEvGhzmwH8-1749445825941-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-06-09 00:10:30.379
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="HktPt2Z_C4dcpS2Ff8oest11jfG8arYGQGCTfWi_TfA-1749445830090-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-06-09 00:10:38.599
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="kSVCHEDsOVW6aDSOjO0_aeyxHbWuhoTJrm6T.FJlWX4-1749445838307-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-06-09 00:10:54.754
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="wLSVZbepByX1CP8viZ3FhxDUpzoVgsQBAITPFIY3mLw-1749445854466-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-06-09 00:11:26.919
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="q14ejaGdp83w8kpb45GEFP42jAeTSPDSxD9MTkbxCks-1749445886631-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.importer 4 0 2025-06-09 00:11:44.082
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.m2e.core.project.LocalProjectScanner.scanFolder(LocalProjectScanner.java:89)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.scanFolder(LocalProjectScanner.java:125)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.run(LocalProjectScanner.java:77)
+	at org.eclipse.m2e.importer.internal.MavenProjectConfigurator.findConfigurableLocations(MavenProjectConfigurator.java:192)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.getImportProposals(SmartImportJob.java:677)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17.run(SmartImportRootWizardPage.java:856)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
